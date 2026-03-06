@@ -29,7 +29,16 @@ res.status(200).json({
 })
 })
 
+app.patch("/notes/:index",(req,res)=>{
+const index = req.params.index
+const {description}= req.body
+notes[index].description =description
+console.log(notes);
+res.status(200).json({
+  message:"update note sucessfully"
+})
 
+})
 
 
 app.listen(3000, () => {
