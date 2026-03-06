@@ -1,0 +1,7 @@
+res.status(201).json({})
+
+topics cover in foundation  
+database 
+aunthication 
+middleware
+integration 
