@@ -11,6 +11,15 @@ app.post("/notes", (req, res) => {
   });
 });
 
+app.get("/notes", (req, res) => {
+  console.log(notes);
+  
+  res.status(200).json({
+    message: "All notes show successfully",
+    notes,
+  });
+});
+
 
 
 app.listen(3000, () => {
