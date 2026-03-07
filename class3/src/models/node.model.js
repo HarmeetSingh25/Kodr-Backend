@@ -4,5 +4,4 @@ const noteSchema =  new mongoose.Schema({
     tittle:String,
     description:String
 })
-const noteModel = mongoose.model("notes", noteSchema)
-export default noteModel
+export const noteModel = mongoose.model("notes", noteSchema)
