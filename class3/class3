@@ -1,0 +1,16 @@
+morgan 
+  mongoose explore deeply 
+  pookie parcel
+  aunthication 
+  scehma explore deeply 
+  axios
+  data/resource is also called document 
+  what is cors and usecase , and why use cors , how to use 
+
+
+
+  create 3 notes
+
+  get specific note with the help of find 
+  create one api get/notes/:id
+  and data get in object form not in array of object 
