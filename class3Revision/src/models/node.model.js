@@ -3,4 +3,5 @@ const noteSchema = new mongoose.Schema({
   title: String,
   description: String,
 });
-export const noteModel = mongoose.model("notes", noteSchema);
+const noteModel = mongoose.model("notes", noteSchema);
+export default noteModel
